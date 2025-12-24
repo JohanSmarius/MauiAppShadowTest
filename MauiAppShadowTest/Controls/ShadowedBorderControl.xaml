@@ -10,10 +10,10 @@
                         <RoundRectangle CornerRadius="14" />
                     </Border.StrokeShape>
                     <Border.Shadow>
-                        <Shadow Brush="Fuchsia" Offset="0,40" Opacity="0" Radius="20" />
+                        <Shadow Brush="{AppThemeBinding Light=Fuchsia, Dark={StaticResource White}}" Offset="0,60" Opacity="0" Radius="40" />
                     </Border.Shadow>
                 </Border>
-                <Border BackgroundColor="White" Stroke="AliceBlue" StrokeThickness="3" ZIndex="1">
+                <Border BackgroundColor="White" Stroke="{AppThemeBinding Light=AliceBlue, Dark={StaticResource Gray100}}"  StrokeThickness="3" ZIndex="1">
                     <Border.StrokeShape>
                         <RoundRectangle CornerRadius="14" />
                     </Border.StrokeShape>
